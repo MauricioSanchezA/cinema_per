@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<!-- corresponde a el  -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+	initial- scale=1">
+    <TITLE> SPA </TITLE>
+    <!-- el titulo -->
+    <link rel="Stylesheet" type="text/css" href="css/estilo.css">
+    <meta name="description" content="Este es un spa">
+    <meta name="keywords" content="Spa, relajacion, descanso, belleza ">
+    <meta name="author" content="Mauricio Sanchez Abella">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://kit.fontawesome.com/kitcode.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon " href="img/logo_sena.ico">
+
+</head>
+
+<body>
+    <div class="video-wrap" id="principal">
+        <video autoplay="" loop="" muted="" class="custom-video" poster="">
+            <source src="../video/135139 (1080p).mp4" type="video/mp4">
+        </video>
+        <audio src="audio/Susurros de terror - Efecto de sonido _ Sound effect.mp4" loop autoplay></audio>
+        <div class="banner" alt="banner"></div>
+        <h2 class="banner__titulo">Galeria</h2>
+    </div>
+    <header>
+        <div class="slide-links">
+
+            <div class="itemSlide">
+                <a href="../index.html" data-title="Inicio"><span>Inicio</span></a>
+            </div>
+            <div class="itemSlide">
+                <a href="../principal/index_prin.html" data-title="Peliculas"><span>Peliculas</span></a>
+            </div>
+            <div class="itemSlide">
+                <a href="../nosotros/index_nos.html" data-title="Sobre el cine"><span>Sobre el Cine</span></a>
+            </div>
+            <div class="itemSlide">
+                <a href="../login/index_log.html" data-title="Registrate"><span>Registrate</span></a>
+            </div>
+        </div>
+        <h1>Galeria de Imagenes</h1>
+        <span class="linea"></span>
+        <section class="galeria">
+            <a href="#image1">
+                <img src="img/img1.jpg" alt="">
+            </a>
+            <a href="#image2">
+                <img src="img/img2.jpg" alt="">
+            </a>
+            <a href="#image3">
+                <img src="img/img3.jpg" alt="">
+            </a>
+            <a href="#image4">
+                <img src="img/img4.jpg" alt="">
+            </a>
+            <a href="#image5">
+                <img src="img/img5.jpg" alt="">
+            </a>
+            <a href="#image6">
+                <img src="img/img6.jpeg" alt="">
+            </a>
+            <a href="#image7">
+                <img src="img/img7.jpg" alt="">
+            </a>
+            <a href="#image8">
+                <img src="img/img8.webp" alt="">
+            </a>
+            <a href="#image9">
+                <img src="img/img9.jpg" alt="">
+            </a>
+        </section>
+
+        <article class="light-box" id="image1">
+            <a href="#image9" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img1.jpg" alt="">
+            <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image2">
+            <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img2.jpg" alt="">
+            <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image3">
+            <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img3.jpg" alt="">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image4">
+            <a href="#image3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img4.jpg" alt="">
+            <a href="#image5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image5">
+            <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img5.jpg" alt="">
+            <a href="#image6" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image6">
+            <a href="#image5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img6.jpeg" alt="">
+            <a href="#image7" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image7">
+            <a href="#image6" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img7.jpg" alt="">
+            <a href="#image8" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image8">
+            <a href="#image7" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img8.webp" alt="">
+            <a href="#image9" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <article class="light-box" id="image9">
+            <a href="#image8" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+            <img src="img/img9.jpg" alt="">
+            <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#" class="close">X</a>
+        </article>
+
+        <footer>
+            <a name=""><b>
+                    <center> Estos - Nuestros Contactos</center>
+                </b></a><BR>
+            <img src="img/logo-facebook-png.png" width="20" height="20" />
+            <p>
+                Desarrollado por MSanchez - Copyright. -Año 2023
+            </p>
+        </footer>
+        <script src="https://kit.fontawesome.com/c15b744a04.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
